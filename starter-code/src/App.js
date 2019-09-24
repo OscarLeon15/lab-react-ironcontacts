@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 // import contacts from './contacts.json'
-import ContactsList from './components/ContactsList';
+import ContactList from './components/ContactsList';
 
 class App extends Component {
   render() {
@@ -9,7 +9,7 @@ class App extends Component {
       <div>
         <h1>hello friend</h1>
 
-        <ContactsList />
+        <ContactList />
       </div>
     );
   }
